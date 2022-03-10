@@ -1,8 +1,8 @@
 while True:
     print('What is your name?')
     name = input()
-    if name != 'Gothrait':
-        continue
+    if name == 'Gothrait':
+        break
 print('What is the password?')
 password = input()
 if password == 'fun':
