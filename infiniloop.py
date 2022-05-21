@@ -2,13 +2,14 @@
 
 def powers(v):
   while v % 2 < 0:
+# added break here
     v = v / 2
   if v == 1:
     return True
   return False
   
 
-print(is_power_of_two(0))
-print(is_power_of_two(1))
-print(is_power_of_two(8))
-print(is_power_of_two(9))
+print(powers(0))
+print(powers(1))
+print(powers(8))
+print(powers(9))
