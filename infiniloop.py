@@ -3,7 +3,7 @@
 def powers(v):
   while v % 2 < 0:
     v = v / 2
-  if n == 1:
+  if v == 1:
     return True
   return False
   
